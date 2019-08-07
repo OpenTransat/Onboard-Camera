@@ -1,0 +1,15 @@
+#!/bin/sh
+echo "Loading the startup script"
+
+if ! pgrep -x "python" > /dev/null
+then
+    sudo chmod 666 /dev/ttyS0
+    sudo stty -F /dev/ttyS0 4800
+    cd /home/ubuntu
+    sudo /usr/bin/python raspi.py &
+
+    #led on
+#    echo 0 | sudo tee /sys/class/leds/led0/brightness >/dev/null
+#    sleep 0.5
+#    echo 1 | sudo tee /sys/class/leds/led0/brightness >/dev/null
+fi
