@@ -2,7 +2,7 @@
 
 Tested with Logitech C920 USB webcam connected to Raspberry Pi 3 running Ubuntu 16.04
 
-The [Python program](https://github.com/OpenTransat/Onboard-Camera/blob/master/ubuntu/raspi.py) running on Ubuntu is listening for serial commands from the main controller running Arduino code: [camera.ino](https://github.com/OpenTransat/OpenTransat-Navigator/blob/master/software/main/camera.ino).
+The [Python program](https://github.com/OpenTransat/Onboard-Camera/blob/master/ubuntu/raspi.py) running on Ubuntu is listening for serial commands from the main controller running Arduino code: [camera.h](https://github.com/OpenTransat/OpenTransat-Navigator/blob/master/software/main/camera.h), [camera.ino](https://github.com/OpenTransat/OpenTransat-Navigator/blob/master/software/main/camera.ino).
 
 
 ### System Configuration:
