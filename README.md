@@ -11,6 +11,7 @@ Copy [files](https://github.com/OpenTransat/Onboard-Camera/tree/master/ubuntu) t
 
 Run startup script on boot:
 ```
+chmod +x /home/ubuntu/capture
 chmod +x /home/ubuntu/startup_script
 crontab -e
 ```
